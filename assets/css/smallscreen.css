@@ -1,0 +1,53 @@
+@media screen and (max-width:767px){
+    .front-end-small-heading {
+        visibility: hidden;
+        position: relative;
+        max-height: 2rem;
+    }
+    .front-end-small-heading:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Front End Web Design";
+    }
+    .scripting-small-heading{
+        visibility: hidden;
+        position: relative;
+        max-height: 2rem;
+        margin-top: 1.5rem;
+    }
+    .scripting-small-heading:after{
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Server side Scripting";
+    }
+    .database-small-heading{
+        visibility: hidden;
+        position: relative;
+        max-height: 2rem;
+        margin-top: 1.5rem;
+    }
+    .database-small-heading:after{
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Databases";
+    }
+    .enterprise-small-heading{
+        visibility: hidden;
+        position: relative;
+        max-height: 2rem;
+        margin-top: 1.5rem;
+    }
+    .enterprise-small-heading:after{
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Enterprise Technology";
+    }
+}

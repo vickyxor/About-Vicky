@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
+    font-family: 'BioRhyme', serif;
+}
+* {box-sizing:border-box}
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+  padding:0;
+  margin:0;
+  margin-bottom: 2%;
+}
+.customer-bg{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Navbar */
+.navbar{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+/* Intro */
+.intro{
+    padding-top: 2%;
+}
+.hello-img{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.heading h2{
+    font-size: 5rem;
+    text-align: center;
+}
+.heading h4{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.jumbotron {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+#don{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+/* About */
+.my-pic{
+    text-align: center;
+}
+.about{
+    text-align: justify;
+}
+
+/* Education and Skills */
+.edu_and_skills{
+    padding-top: 5%;
+}
+.btn-lg{
+    padding: 1rem;
+}
+.edu-skills-header{
+    padding: 0;
+}
+.skills {
+    text-align: left; 
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    height: 3rem;
+    color: white; 
+}
+#skills-heading{
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 2.5rem;
+}
+.customer-bg p{
+    padding-left: 1rem;
+}
+.front-end-small-heading{
+    padding-top: 1rem;
+}
+.html {
+    width: 90%; 
+    background-color: black;
+} 
+.scripting{
+    width: 80%;
+    background-color: black;
+}
+.database{
+    width: 70%;
+    background-color: black;
+}
+.enterprise{
+    width: 80%;
+    background-color: black;
+}
+
+/* Work Samples */
+.work{
+    margin: 4%;
+    height: 100%;
+}
+#work{
+    padding-top: 3rem;
+}
+.work-heading{
+    text-align: center;
+    margin-bottom: 0;
+}
+.card-img-top{
+    height: 20rem;
+}
+.sample{
+    margin-bottom: 3%;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+}
+.card-body{
+    padding-bottom: 0;
+}
+.card-text{
+    text-align: justify;
+    padding-top: 2rem;
+}
+.card-footer{
+    padding: 0;
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 1%;
+    text-align: center; 
+    color: black;
+}
+.not-allowed{
+    cursor: not-allowed;
+    margin-bottom: 0;
+}
+.fab{
+    color: black;
+}
+.fa-heart{
+    color: red;
+}
+#button {
+    margin-top: 1.5rem;
+    display: inline-block;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 400;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+.footer{
+    margin-top: 5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px){
+    .intro{
+        padding-top: 7%;
+    }
+}
+@media screen and (max-width:990px){
+    .about{
+        padding-top: 3%;
+    }
+}
+@media screen and (max-width: 670px){
+    #skills-heading{
+        display: none;
+    }
+    .front-end-small-heading{
+        margin-top: 2rem;
+    }
+}
